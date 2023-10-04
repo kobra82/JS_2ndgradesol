@@ -1,0 +1,38 @@
+div {
+  background-color: blue;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  width: fit-content;
+}
+
+.inputlayout {
+  border-radius: inherit;
+  border-color: inherit;
+  border: inherit;
+  text-align: center;
+}
+
+.inputlayout[type="text"] {
+  display: inline;
+  width: 1.7em;
+}
+
+.inputlayout[type="button"] {
+  display: block;
+  margin-block-start: 5px;
+  width: 7.56em;
+}
+
+.inputlayout[type="button"]:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+h4,
+h5 {
+  text-align: center;
+  margin-block: 5px;
+}
